@@ -286,6 +286,24 @@
 										},
 										{
 											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGWHDJyA+15ITw=",
+											"_parent": {
+												"$ref": "AAAAAAGWGunyqzUKqGU="
+											},
+											"model": {
+												"$ref": "AAAAAAGWHDJx+u12ZuM="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 693,
+											"top": 556,
+											"width": 109.74169921875,
+											"height": 13,
+											"text": "-password: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
 											"_id": "AAAAAAGWGvFHKDXmyyQ=",
 											"_parent": {
 												"$ref": "AAAAAAGWGunyqzUKqGU="
@@ -296,7 +314,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 693,
-											"top": 556,
+											"top": 571,
 											"width": 109.74169921875,
 											"height": 13,
 											"text": "-role: String",
@@ -308,7 +326,7 @@
 									"left": 688,
 									"top": 521,
 									"width": 119.74169921875,
-									"height": 53
+									"height": 68
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -322,7 +340,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 688,
-									"top": 574,
+									"top": 589,
 									"width": 119.74169921875,
 									"height": 10
 								},
@@ -370,7 +388,7 @@
 							"left": 688,
 							"top": 496,
 							"width": 118.74169921875,
-							"height": 88,
+							"height": 103,
 							"nameCompartment": {
 								"$ref": "AAAAAAGWGunyqzUFkUc="
 							},
@@ -1798,6 +1816,17 @@
 									},
 									"name": "userName",
 									"documentation": "Nombre de usuario",
+									"visibility": "private",
+									"type": "String"
+								},
+								{
+									"_type": "UMLAttribute",
+									"_id": "AAAAAAGWHDJx+u12ZuM=",
+									"_parent": {
+										"$ref": "AAAAAAGWGunyqjUC4vc="
+									},
+									"name": "password",
+									"documentation": "Clave del usuario",
 									"visibility": "private",
 									"type": "String"
 								},
